@@ -1,3 +1,5 @@
+
+
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -27,20 +29,9 @@
     width: 100%;
 }
 
-/* .navbar {
-    text-decoration: none;
-} */
-
 /* display background color black on navbar scroll */
-.navbarScroll.navbarDark {
-    background-color:black;
-}
-
-.navbar-brand {
-
-    font-size: 10px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+.navbarScroll.navbarLight{
+    background-color: rgb(243, 243, 243);
 
 }
 
@@ -49,14 +40,57 @@
     font-size: 36px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: grey;
 }
 .fab {
-    color: #4b4a4a;
+    color:white;
 }
 /* footer styling */
 #footer {
-    background-color: #eeeeee;
+    background-color: #282727;
     text-align: center;
+}
+/* SKILLS */
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+ 
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 0.01em; /* Add top padding */
+  padding-bottom: 0.01em; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.js {width: 70%; background-color: #e8d1b5;} 
+.html {width: 90%; background-color: #a6d1c1;} 
+.css {width: 85%; background-color: #8dbee6;} 
+.react {width: 50%; background-color: #97afcf;} 
+.bst {width: 60%; background-color: #d1a8e8;} 
+
+.django {width: 75%; background-color: #818181;}
+.python {width: 60%; background-color: #d0b4cf;}
+.express {width: 60%; background-color: #acd3b7;}
+.node {width: 60%; background-color: #69948f;} 
+.mongoose {width: 55%; background-color: #73abbd;} 
+
+.sql {width: 55%; background-color: #b9aaa3;}
+.mongo {width: 60%; background-color: #b9aaa3;}
+.post {width: 50%; background-color:  #b9aaa3;}
+
+.shopi {width: 70%; background-color: #79c7c5;}
+.wix {width: 65%; background-color:#79c7c5;}
+.square {width: 70%; background-color: #79c7c5;}
+
+.card{
+    margin-top: 2%;
+    padding:5%;
+    margin-bottom: 5%;
 }
