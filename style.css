@@ -10,7 +10,7 @@
 
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 5rem;
 }
 .hero_desc {
     font-size: 2rem;
@@ -27,6 +27,11 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+}
+
+#detail{
+    font-size: 1.5rem;
+    font-weight: light;
 }
 
 /* display background color black on navbar scroll */
@@ -46,11 +51,7 @@
 .fab {
     color:white;
 }
-/* footer styling */
-#footer {
-    background-color: #282727;
-    text-align: center;
-}
+
 /* SKILLS */
 
 /* Make sure that padding behaves as expected */
@@ -93,4 +94,19 @@
     margin-top: 2%;
     padding:5%;
     margin-bottom: 5%;
+}
+
+/* spacing on all sections */
+#about, #skills, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+/* footer styling */
+#footer {
+    background-color: #282727;
+    text-align:center;
 }
