@@ -28,8 +28,13 @@
 }
 
 #detail{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: lighter;
+}
+
+#detail:hover {
+    font-size: 1.6rem;
+    font-weight: medium;
 }
 
 /* display background color black on navbar scroll */
